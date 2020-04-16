@@ -39,3 +39,33 @@ nav{
     margin: 0 auto;
 
 }
+@media (max-width: 800px) {
+    h1 {
+        font-size: .75rem;
+    }
+    body {
+        font-size:  .5em;
+        text-align: center;
+    }
+   .gallery { flex-direction: column;
+   }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: .5rem;
+        text-align: center;
+    
+    }
+    body {
+        font-size: .5rem;
+        text-align: wrap;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    nav a {
+        font-size: .4rem;
+    
+    }
+}
